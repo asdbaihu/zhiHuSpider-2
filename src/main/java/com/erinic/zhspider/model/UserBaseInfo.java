@@ -1,12 +1,19 @@
 package com.erinic.zhspider.model;
 
 import us.codecraft.webmagic.model.annotation.ExtractBy;
+import us.codecraft.webmagic.model.annotation.HelpUrl;
+import us.codecraft.webmagic.model.annotation.TargetUrl;
 
 import javax.persistence.Id;
+import javax.persistence.Table;
+import java.util.Date;
 
 /**
  * Created by Administrator on 2017/3/25 0025.
  */
+@HelpUrl("https://www.zhihu.com/search?type=people&q=%E7%BE%8E%E5%A5%B3")
+@TargetUrl(value="https://www.zhihu.com/people/[\\w-]+")
+@Table(name = "user_base_info")
 public class UserBaseInfo {
 
     @Id
@@ -48,8 +55,13 @@ public class UserBaseInfo {
     @ExtractBy("//div[@class='ProfileMain-header']/ul[@role='tablist']/li[5]/a/html()/regex('[1-9]\\d*')")
     private Integer favorite;
 
-    @ExtractBy("//div[@class='Profile-sideColumnItems']/div[2]/html()/regex('[1-9]\\d*+\\s次赞同')/regex('[1-9]\\d*')")
-    private Integer like;
+    @ExtractBy("//div[@class='Profile-sideColumnItems']/div[2]/div[@class='IconGraf']/text()/regex('[1-9]\\d*+\\s次赞同')/regex('[1-9]\\d*')")
+    private Integer agree;
+
+    /**
+     * 添加时间
+     */
+    private Date addtime;
 
     public Integer getId() {
         return id;
@@ -155,11 +167,19 @@ public class UserBaseInfo {
         this.favorite = favorite;
     }
 
-    public Integer getLike() {
-        return like;
+    public Integer getAgree() {
+        return agree;
     }
 
-    public void setLike(Integer like) {
-        this.like = like;
+    public void setAgree(Integer agree) {
+        this.agree = agree;
+    }
+
+    public Date getAddtime() {
+        return addtime;
+    }
+
+    public void setAddtime(Date addtime) {
+        this.addtime = addtime;
     }
 }

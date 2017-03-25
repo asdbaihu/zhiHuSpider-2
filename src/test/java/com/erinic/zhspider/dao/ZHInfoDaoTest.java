@@ -1,4 +1,4 @@
-package com.erinic.zhspider;
+package com.erinic.zhspider.dao;
 
 import com.erinic.zhspider.dao.ZhInfoDao;
 import com.erinic.zhspider.model.ZhInfo;
@@ -12,11 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * User: cairne
- * Date: 13-5-13
- * Time: 下午8:33
- */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations =  {
         "classpath*:config/spring-mvc.xml" ,

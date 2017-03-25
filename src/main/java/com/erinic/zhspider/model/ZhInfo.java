@@ -7,6 +7,7 @@ import us.codecraft.webmagic.model.annotation.HelpUrl;
 import us.codecraft.webmagic.model.annotation.TargetUrl;
 
 import javax.persistence.Id;
+import java.util.Date;
 
 /**
  * Created by Administrator on 2017/3/15 0015.
@@ -34,6 +35,11 @@ public class ZhInfo implements AfterExtractor{
     private Integer agree;
 
     private Integer attention;
+
+    /**
+     * 添加时间
+     */
+    private Date addtime;
 
     public String getTitle() {
         return title;
@@ -99,5 +105,13 @@ public class ZhInfo implements AfterExtractor{
 
     public void setAttention(Integer attention) {
         this.attention = attention;
+    }
+
+    public Date getAddtime() {
+        return addtime;
+    }
+
+    public void setAddtime(Date addtime) {
+        this.addtime = addtime;
     }
 }
