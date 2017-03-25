@@ -15,5 +15,5 @@ public interface ZhInfoService {
 
     List<ZhInfo> getInfoList(int offset,int limit);
 
-
+    ZhInfo findById(int zhInfoId);
 }

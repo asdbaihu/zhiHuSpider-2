@@ -46,4 +46,12 @@ public class ZHInfoDaoTest {
             System.out.println(zhInfo);
         }
     }
+
+    @Test
+    public void testFindById(){
+        ZhInfo zhInfo = zhInfoDao.queryById(1);
+
+            System.out.println(zhInfo);
+
+    }
 }

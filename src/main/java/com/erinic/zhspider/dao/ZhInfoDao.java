@@ -13,5 +13,7 @@ public interface ZhInfoDao extends Mapper<ZhInfo>{
 
     List<ZhInfo> getInfoLimit(@Param("offset") Integer offset, @Param("limit") Integer limit);
 
+    ZhInfo queryById(Integer zhInfoId);
+
 //    int getAmountByReocordItem(ZhInfo record);
 }

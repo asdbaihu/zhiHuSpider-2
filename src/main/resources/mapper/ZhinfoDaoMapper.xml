@@ -35,6 +35,13 @@
         FROM zh_info
         limit #{offset},#{limit}
 	</select>
+
+	<select id="queryById" resultMap="BaseResultMap">
+
+		SELECT *
+		FROM zh_info
+		WHERE id = #{zhInfoId}
+	</select>
 	<!---->
 	<!--<select id="getAmountByReocordItem" resultMap="BaseResultMap">-->
 	 <!--<if test="questions != null" >-->

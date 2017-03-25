@@ -21,4 +21,9 @@ public class ZhInfoServiceImpl implements ZhInfoService{
     public List<ZhInfo> getInfoList(int offset,int limit){
         return zhInfoDao.getInfoLimit(offset,limit);
     }
+
+    @Override
+    public ZhInfo findById(int zhInfoId){
+        return zhInfoDao.queryById(zhInfoId);
+    }
 }
