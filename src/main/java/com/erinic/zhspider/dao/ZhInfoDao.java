@@ -1,13 +1,17 @@
 package com.erinic.zhspider.dao;
 
 import com.erinic.zhspider.model.ZhInfo;
-import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Param;
+import tk.mybatis.mapper.common.Mapper;
+
+import java.util.List;
 
 /**
  * Created by Administrator on 2017/3/15 0015.
  */
-public interface ZhInfoDao {
+public interface ZhInfoDao extends Mapper<ZhInfo>{
 
-    @Insert("INSERT ignore INTO zh_info (`title`,`content`,`author`,`summary`,`agree`,`attention`)  VALUES (#{title},#{content},#{author},#{summary},#{agree},#{attention})")
-    int insertInfo(ZhInfo zhInfo);
+    List<ZhInfo> getInfoLimit(@Param("offset") Integer offset, @Param("limit") Integer limit);
+
+//    int getAmountByReocordItem(ZhInfo record);
 }

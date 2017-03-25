@@ -6,12 +6,17 @@ import us.codecraft.webmagic.model.annotation.ExtractBy;
 import us.codecraft.webmagic.model.annotation.HelpUrl;
 import us.codecraft.webmagic.model.annotation.TargetUrl;
 
+import javax.persistence.Id;
+
 /**
  * Created by Administrator on 2017/3/15 0015.
  */
 @TargetUrl("https://www.zhihu.com/question/\\d+")
 @HelpUrl("https://www.zhihu.com/topic/19551556/top-answers\\?page=\\d+")
 public class ZhInfo implements AfterExtractor{
+
+    @Id
+    private Integer id;
 
     @ExtractBy("//h1[@class='QuestionHeader-title']/html()")
     private String title;
@@ -25,10 +30,10 @@ public class ZhInfo implements AfterExtractor{
     @ExtractBy("//div[@class='AuthorInfo']/div[@class='AuthorInfo-content']/div[@class='RichText AuthorInfo-badge']/html()")
     private String summary;
 
-    @ExtractBy("//div[@class='AnswerItem-extraInfo']/span[@class='Voters']/button[@class='Button Button--plain']/html()/regex('\\d+-')")
+    @ExtractBy("//div[@class='AnswerItem-extraInfo']/span[@class='Voters']/button[@class='Button Button--plain']/html()/regex('[1-9]\\d*')")
     private Integer agree;
 
-    private long attention;
+    private Integer attention;
 
     public String getTitle() {
         return title;
@@ -75,15 +80,24 @@ public class ZhInfo implements AfterExtractor{
         this.agree = agree;
     }
 
-    public long getAttention() {
-        return attention;
-    }
-
-    public void setAttention(long attention) {
-        this.attention = attention;
-    }
 
     @Override
     public void afterProcess(Page page) {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getAttention() {
+        return attention;
+    }
+
+    public void setAttention(Integer attention) {
+        this.attention = attention;
     }
 }
