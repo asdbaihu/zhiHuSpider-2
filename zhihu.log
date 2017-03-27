@@ -5348,3 +5348,1136 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
 	... 14 more
+[INFO][2017-03-27 21:02:13,373][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:02:13 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:02:13,675][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mvc.xml]
+[INFO][2017-03-27 21:02:15,199][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mybatis.xml]
+[INFO][2017-03-27 21:02:18,683][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/db.properties]
+[INFO][2017-03-27 21:02:18,683][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/log4j.properties]
+[INFO][2017-03-27 21:02:18,881][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 5.1.3.Final
+[INFO][2017-03-27 21:02:20,408][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-03-27 21:02:20,408][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:02:21,383][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:02:21,384][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:02:21,467][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'userBaseInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:02:21,477][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'zhInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:02:22,239][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/list]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.getList(org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:02:22,240][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/{zhInfoId}/detail],methods=[GET]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.detail(java.lang.Integer,org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:02:23,401][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:02:13 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:02:23,592][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:02:13 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:02:23,700][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:02:13 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:02:25,098][org.eclipse.jetty.util.log]Logging initialized @15989ms
+[INFO][2017-03-27 21:02:25,176][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Registering beans for JMX exposure on startup
+[INFO][2017-03-27 21:02:25,179][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO][2017-03-27 21:02:25,184][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO][2017-03-27 21:02:26,396][us.codecraft.webmagic.model.OOSpider]Spider www.zhihu.com started!
+[INFO][2017-03-27 21:02:26,399][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh
+[INFO][2017-03-27 21:02:29,206][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/followers
+[INFO][2017-03-27 21:05:41,510][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:05:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:05:41,629][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mvc.xml]
+[INFO][2017-03-27 21:05:42,144][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mybatis.xml]
+[INFO][2017-03-27 21:05:44,456][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/db.properties]
+[INFO][2017-03-27 21:05:44,457][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/log4j.properties]
+[INFO][2017-03-27 21:05:44,580][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 5.1.3.Final
+[INFO][2017-03-27 21:05:45,079][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-03-27 21:05:45,079][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:05:45,338][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:05:45,339][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:05:45,526][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'userBaseInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:05:45,565][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'zhInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:05:45,974][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/list]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.getList(org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:05:45,975][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/{zhInfoId}/detail],methods=[GET]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.detail(java.lang.Integer,org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:05:46,326][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:05:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:05:46,402][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:05:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:05:46,481][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:05:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:05:47,284][org.eclipse.jetty.util.log]Logging initialized @6502ms
+[INFO][2017-03-27 21:05:47,326][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Registering beans for JMX exposure on startup
+[INFO][2017-03-27 21:05:47,329][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO][2017-03-27 21:05:47,334][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO][2017-03-27 21:05:47,787][us.codecraft.webmagic.model.OOSpider]Spider www.zhihu.com started!
+[INFO][2017-03-27 21:05:47,790][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh
+[INFO][2017-03-27 21:05:49,895][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/followers
+[INFO][2017-03-27 21:05:49,895][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/e
+[WARN][2017-03-27 21:05:51,052][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/e
+[INFO][2017-03-27 21:05:51,280][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/l
+[INFO][2017-03-27 21:05:51,281][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/h
+[INFO][2017-03-27 21:05:51,281][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/c
+[WARN][2017-03-27 21:05:54,072][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/c
+[INFO][2017-03-27 21:05:54,572][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/h/followers
+[INFO][2017-03-27 21:05:54,572][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/l/followers
+[INFO][2017-03-27 21:05:55,881][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/z
+[INFO][2017-03-27 21:05:55,881][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/w
+[INFO][2017-03-27 21:05:56,739][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/j
+[INFO][2017-03-27 21:05:58,372][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/z/followers
+[INFO][2017-03-27 21:05:58,409][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/w/followers
+[WARN][2017-03-27 21:05:59,056][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/j
+[INFO][2017-03-27 21:06:00,880][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/s
+[INFO][2017-03-27 21:06:01,729][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/q
+[WARN][2017-03-27 21:06:02,066][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/s
+[WARN][2017-03-27 21:06:03,062][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/q
+[INFO][2017-03-27 21:09:17,911][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:09:17 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:09:18,015][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mvc.xml]
+[INFO][2017-03-27 21:09:18,561][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mybatis.xml]
+[INFO][2017-03-27 21:09:20,743][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/db.properties]
+[INFO][2017-03-27 21:09:20,744][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/log4j.properties]
+[INFO][2017-03-27 21:09:20,813][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 5.1.3.Final
+[INFO][2017-03-27 21:09:21,208][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-03-27 21:09:21,209][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:09:21,454][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:09:21,454][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:09:21,655][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'userBaseInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:09:21,672][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'zhInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:09:22,057][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/list]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.getList(org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:09:22,058][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/{zhInfoId}/detail],methods=[GET]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.detail(java.lang.Integer,org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:09:22,453][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:09:17 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:09:22,530][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:09:17 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:09:22,606][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:09:17 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:09:23,362][org.eclipse.jetty.util.log]Logging initialized @6151ms
+[INFO][2017-03-27 21:09:23,403][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Registering beans for JMX exposure on startup
+[INFO][2017-03-27 21:09:23,406][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO][2017-03-27 21:09:23,412][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO][2017-03-27 21:09:23,830][us.codecraft.webmagic.model.OOSpider]Spider www.zhihu.com started!
+[INFO][2017-03-27 21:09:23,833][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh
+[INFO][2017-03-27 21:09:25,814][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/followers
+[INFO][2017-03-27 21:09:25,815][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/e
+[WARN][2017-03-27 21:09:25,970][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/e
+[INFO][2017-03-27 21:09:28,691][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/h
+[INFO][2017-03-27 21:09:28,691][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/d
+[INFO][2017-03-27 21:09:28,692][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/c
+[WARN][2017-03-27 21:09:28,871][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/d
+[INFO][2017-03-27 21:09:30,608][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO][2017-03-27 21:09:30,649][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+[ERROR][2017-03-27 21:09:30,665][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/h', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,education,attention,batt ) VALUES ( ?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+; SQL []; Duplicate entry 'HUANG He' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:09:30,747][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/h/followers
+[WARN][2017-03-27 21:09:30,845][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/c
+[INFO][2017-03-27 21:09:32,540][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/j
+[INFO][2017-03-27 21:09:32,540][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/l
+[INFO][2017-03-27 21:09:32,540][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/w
+[WARN][2017-03-27 21:09:32,845][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/j
+[ERROR][2017-03-27 21:09:34,222][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/l', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,cover_picture,attention,batt,answer ) VALUES ( ?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+; SQL []; Duplicate entry '张涛' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:09:34,225][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/l/followers
+[ERROR][2017-03-27 21:09:35,219][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/w', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,attention,batt,answer,favorite,agree ) VALUES ( ?,?,?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+; SQL []; Duplicate entry 'wangshichao' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:09:35,222][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/w/followers
+[INFO][2017-03-27 21:09:36,757][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/z
+[INFO][2017-03-27 21:09:37,902][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/q
+[ERROR][2017-03-27 21:09:38,008][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/z', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,attention,batt,favorite ) VALUES ( ?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+; SQL []; Duplicate entry 'Zh Sunny' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:09:38,033][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/z/followers
+[WARN][2017-03-27 21:09:38,843][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/q
+[INFO][2017-03-27 21:09:40,582][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/s
+[WARN][2017-03-27 21:09:40,852][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/s
+[INFO][2017-03-27 21:11:05,512][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:11:05 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:11:05,630][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mvc.xml]
+[INFO][2017-03-27 21:11:06,132][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mybatis.xml]
+[INFO][2017-03-27 21:11:08,630][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/db.properties]
+[INFO][2017-03-27 21:11:08,630][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/log4j.properties]
+[INFO][2017-03-27 21:11:08,705][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 5.1.3.Final
+[INFO][2017-03-27 21:11:09,172][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-03-27 21:11:09,172][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:11:09,422][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:11:09,423][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:11:09,560][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'userBaseInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:11:09,574][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'zhInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:11:09,972][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/list]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.getList(org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:11:09,973][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/{zhInfoId}/detail],methods=[GET]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.detail(java.lang.Integer,org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:11:10,360][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:11:05 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:11:10,435][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:11:05 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:11:10,507][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:11:05 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:11:11,244][org.eclipse.jetty.util.log]Logging initialized @6502ms
+[INFO][2017-03-27 21:11:11,282][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Registering beans for JMX exposure on startup
+[INFO][2017-03-27 21:11:11,284][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO][2017-03-27 21:11:11,289][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO][2017-03-27 21:11:11,683][us.codecraft.webmagic.model.OOSpider]Spider www.zhihu.com started!
+[INFO][2017-03-27 21:11:11,689][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh
+[INFO][2017-03-27 21:11:13,630][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/followers
+[INFO][2017-03-27 21:11:13,631][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/e
+[WARN][2017-03-27 21:11:14,832][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/e
+[INFO][2017-03-27 21:11:14,999][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/d
+[INFO][2017-03-27 21:11:14,999][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/h
+[INFO][2017-03-27 21:11:15,000][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/c
+[INFO][2017-03-27 21:11:16,501][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO][2017-03-27 21:11:16,591][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+[ERROR][2017-03-27 21:11:16,605][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/h', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,education,attention,batt ) VALUES ( ?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+; SQL []; Duplicate entry 'HUANG He' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'HUANG He' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:11:16,612][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/h/followers
+[WARN][2017-03-27 21:11:16,825][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/d
+[WARN][2017-03-27 21:11:17,819][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/c
+[INFO][2017-03-27 21:11:19,520][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/j
+[INFO][2017-03-27 21:11:19,520][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/w
+[INFO][2017-03-27 21:11:19,520][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/l
+[WARN][2017-03-27 21:11:19,817][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/j
+[INFO][2017-03-27 21:11:20,252][org.apache.http.impl.execchain.RetryExec]I/O exception (java.net.SocketException) caught when processing request to {}->http://www.zhihu.com:80: Connection reset
+[INFO][2017-03-27 21:11:20,253][org.apache.http.impl.execchain.RetryExec]Retrying request to {}->http://www.zhihu.com:80
+[ERROR][2017-03-27 21:11:21,709][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/w', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,attention,batt,answer,favorite,agree ) VALUES ( ?,?,?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+; SQL []; Duplicate entry 'wangshichao' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'wangshichao' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:11:21,769][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/w/followers
+[ERROR][2017-03-27 21:11:22,193][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/l', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,cover_picture,attention,batt,answer ) VALUES ( ?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+; SQL []; Duplicate entry '张涛' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '张涛' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:11:22,199][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/l/followers
+[INFO][2017-03-27 21:11:23,530][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/q
+[WARN][2017-03-27 21:11:24,814][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/q
+[INFO][2017-03-27 21:11:25,143][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/z
+[ERROR][2017-03-27 21:11:26,044][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/z', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,attention,batt,favorite ) VALUES ( ?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+; SQL []; Duplicate entry 'Zh Sunny' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Zh Sunny' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:11:26,047][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/z/followers
+[INFO][2017-03-27 21:11:27,592][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/s
+[WARN][2017-03-27 21:11:27,812][us.codecraft.webmagic.downloader.HttpClientDownloader]code error 404	http://www.zhihu.com/people/s
+[INFO][2017-03-27 21:13:02,491][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:13:02 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:13:02,602][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mvc.xml]
+[INFO][2017-03-27 21:13:03,088][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mybatis.xml]
+[INFO][2017-03-27 21:13:05,072][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/db.properties]
+[INFO][2017-03-27 21:13:05,072][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/log4j.properties]
+[INFO][2017-03-27 21:13:05,141][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 5.1.3.Final
+[INFO][2017-03-27 21:13:05,491][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-03-27 21:13:05,491][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:13:05,737][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:13:05,738][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:13:05,870][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'userBaseInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:13:05,882][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'zhInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:13:06,335][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/list]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.getList(org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:13:06,336][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/{zhInfoId}/detail],methods=[GET]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.detail(java.lang.Integer,org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:13:06,726][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:13:02 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:13:06,805][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:13:02 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:13:06,885][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:13:02 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:13:07,657][org.eclipse.jetty.util.log]Logging initialized @5892ms
+[INFO][2017-03-27 21:13:07,703][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Registering beans for JMX exposure on startup
+[INFO][2017-03-27 21:13:07,706][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO][2017-03-27 21:13:07,712][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO][2017-03-27 21:13:08,176][us.codecraft.webmagic.model.OOSpider]Spider www.zhihu.com started!
+[INFO][2017-03-27 21:13:08,179][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh
+[INFO][2017-03-27 21:13:10,388][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO][2017-03-27 21:13:10,423][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+[ERROR][2017-03-27 21:13:10,430][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/excited-vczh', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,education,sex,attention,batt,answer,link,question,favorite,agree ) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+; SQL []; Data truncation: Data too long for column 'summary' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:102)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3833)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:13:10,437][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/followers
+[INFO][2017-03-27 21:13:11,820][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/feng-xiao-mian
+[INFO][2017-03-27 21:13:11,821][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/chen-yun-51-22
+[INFO][2017-03-27 21:13:11,822][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/danielchen-41
+[INFO][2017-03-27 21:13:12,795][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/feng-xiao-mian/followers
+[INFO][2017-03-27 21:13:13,752][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/chen-yun-51-22/followers
+[INFO][2017-03-27 21:13:14,768][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/danielchen-41/followers
+[INFO][2017-03-27 21:14:12,366][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:14:12 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:14:12,474][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mvc.xml]
+[INFO][2017-03-27 21:14:12,964][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mybatis.xml]
+[INFO][2017-03-27 21:14:15,138][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/db.properties]
+[INFO][2017-03-27 21:14:15,138][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/log4j.properties]
+[INFO][2017-03-27 21:14:15,202][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 5.1.3.Final
+[INFO][2017-03-27 21:14:15,580][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-03-27 21:14:15,580][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:14:15,852][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:14:15,852][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:14:15,992][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'userBaseInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:14:16,006][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'zhInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:14:16,450][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/list]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.getList(org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:14:16,450][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/{zhInfoId}/detail],methods=[GET]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.detail(java.lang.Integer,org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:14:16,839][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:14:12 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:14:16,920][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:14:12 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:14:17,002][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:14:12 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:14:17,716][org.eclipse.jetty.util.log]Logging initialized @6289ms
+[INFO][2017-03-27 21:14:17,760][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Registering beans for JMX exposure on startup
+[INFO][2017-03-27 21:14:17,762][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO][2017-03-27 21:14:17,767][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO][2017-03-27 21:14:18,226][us.codecraft.webmagic.model.OOSpider]Spider www.zhihu.com started!
+[INFO][2017-03-27 21:14:18,232][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh
+[INFO][2017-03-27 21:14:20,326][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/followers
+[INFO][2017-03-27 21:14:20,327][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/activities
+[INFO][2017-03-27 21:14:22,734][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO][2017-03-27 21:14:22,763][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+[ERROR][2017-03-27 21:14:22,768][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/excited-vczh/activities', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,education,sex,attention,batt,answer,link,question,favorite,agree ) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+; SQL []; Data truncation: Data too long for column 'summary' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:102)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3833)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:16:41,117][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:16:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:16:41,214][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mvc.xml]
+[INFO][2017-03-27 21:16:41,746][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [F:\code\zhiHuSpider\target\classes\config\spring-mybatis.xml]
+[INFO][2017-03-27 21:16:43,896][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/db.properties]
+[INFO][2017-03-27 21:16:43,897][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from URL [file:/F:/code/zhiHuSpider/target/classes/log4j.properties]
+[INFO][2017-03-27 21:16:44,000][org.hibernate.validator.internal.util.Version]HV000001: Hibernate Validator 5.1.3.Final
+[INFO][2017-03-27 21:16:44,453][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2017-03-27 21:16:44,454][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:16:44,684][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:16:44,684][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:16:44,812][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'userBaseInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:16:44,823][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker]Bean 'zhInfoDao' of type [class tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO][2017-03-27 21:16:45,228][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/list]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.getList(org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:16:45,229][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/info/{zhInfoId}/detail],methods=[GET]}" onto public java.lang.String com.erinic.zhspider.controller.ZhInfoController.detail(java.lang.Integer,org.springframework.ui.ModelMap)
+[INFO][2017-03-27 21:16:45,630][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:16:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:16:45,707][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:16:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:16:45,798][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d: startup date [Mon Mar 27 21:16:41 CST 2017]; root of context hierarchy
+[INFO][2017-03-27 21:16:46,547][org.eclipse.jetty.util.log]Logging initialized @6219ms
+[INFO][2017-03-27 21:16:46,590][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Registering beans for JMX exposure on startup
+[INFO][2017-03-27 21:16:46,593][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO][2017-03-27 21:16:46,598][org.springframework.jmx.export.annotation.AnnotationMBeanExporter]Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO][2017-03-27 21:16:47,035][us.codecraft.webmagic.model.OOSpider]Spider www.zhihu.com started!
+[INFO][2017-03-27 21:16:47,037][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh
+[INFO][2017-03-27 21:16:49,096][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO][2017-03-27 21:16:49,151][org.springframework.jdbc.support.SQLErrorCodesFactory]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+[ERROR][2017-03-27 21:16:49,158][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/excited-vczh', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,education,sex,attention,batt,answer,link,question,favorite,agree ) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+; SQL []; Data truncation: Data too long for column 'summary' at row 1; nested exception is com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:102)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'summary' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3833)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:16:49,179][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/excited-vczh/followers
+[INFO][2017-03-27 21:16:50,791][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/she-xi-zhe
+[INFO][2017-03-27 21:16:50,792][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yan-hua-yi-leng-87-74
+[INFO][2017-03-27 21:16:50,792][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/feng-xiao-mian
+[INFO][2017-03-27 21:16:51,787][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/she-xi-zhe/followers
+[ERROR][2017-03-27 21:16:52,200][us.codecraft.webmagic.model.OOSpider]process request Request{url='http://www.zhihu.com/people/feng-xiao-mian', method='null', extras={statusCode=200}, priority=0} error
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '枫小眠' for key 'user_name'
+### The error may involve com.erinic.zhspider.dao.UserBaseInfoDao.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO  user_base_info ( user_name,summary,company,cover_picture,attention,question ) VALUES ( ?,?,?,?,?,? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '枫小眠' for key 'user_name'
+; SQL []; Duplicate entry '枫小眠' for key 'user_name'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '枫小眠' for key 'user_name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy30.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy43.insertSelective(Unknown Source)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:21)
+	at com.erinic.zhspider.pipeline.UserBaseInfoDaoPipeline.process(UserBaseInfoDaoPipeline.java:13)
+	at us.codecraft.webmagic.model.ModelPipeline.process(ModelPipeline.java:39)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:424)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:322)
+	at us.codecraft.webmagic.selector.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '枫小眠' for key 'user_name'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:118)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 14 more
+[INFO][2017-03-27 21:16:52,204][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/feng-xiao-mian/followers
+[INFO][2017-03-27 21:16:53,777][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yan-hua-yi-leng-87-74/followers
+[INFO][2017-03-27 21:16:54,697][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wang-zuxian717
+[INFO][2017-03-27 21:16:56,659][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/legendpig
+[INFO][2017-03-27 21:16:57,935][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wang-zuxian717/followers
+[INFO][2017-03-27 21:16:58,985][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/legendpig/followers
+[INFO][2017-03-27 21:16:59,791][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-zhu-83-94
+[INFO][2017-03-27 21:16:59,791][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/guo-qiong-92-44
+[INFO][2017-03-27 21:16:59,792][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/fu-jian-wen-1
+[INFO][2017-03-27 21:17:01,143][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xin-han-shen
+[INFO][2017-03-27 21:17:01,143][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/sxiao-xie-zi
+[INFO][2017-03-27 21:17:01,686][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/song-li-lin
+[INFO][2017-03-27 21:17:02,825][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-zhu-83-94/followers
+[INFO][2017-03-27 21:17:03,711][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/guo-qiong-92-44/followers
+[INFO][2017-03-27 21:17:04,905][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/fu-jian-wen-1/followers
+[INFO][2017-03-27 21:17:05,775][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/sxiao-xie-zi/followers
+[INFO][2017-03-27 21:17:06,743][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xin-han-shen/followers
+[INFO][2017-03-27 21:17:07,652][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/song-li-lin/followers
+[INFO][2017-03-27 21:17:08,776][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-cang-shui
+[INFO][2017-03-27 21:17:10,131][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhao-yiming-67
+[INFO][2017-03-27 21:17:10,755][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ding-zi-fan-35
+[INFO][2017-03-27 21:17:12,689][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/hu-zhou-mi
+[INFO][2017-03-27 21:17:12,689][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xu-qiu-yang-79
+[INFO][2017-03-27 21:17:13,849][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-chi-82-70
+[INFO][2017-03-27 21:17:15,808][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-cang-shui/followers
+[INFO][2017-03-27 21:17:16,890][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ding-zi-fan-35/followers
+[INFO][2017-03-27 21:17:17,870][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/hu-zhou-mi/followers
+[INFO][2017-03-27 21:17:18,786][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xu-qiu-yang-79/followers
+[INFO][2017-03-27 21:17:19,454][org.apache.http.impl.execchain.RetryExec]I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.zhihu.com:443: The target server failed to respond
+[INFO][2017-03-27 21:17:19,455][org.apache.http.impl.execchain.RetryExec]Retrying request to {s}->https://www.zhihu.com:443
+[INFO][2017-03-27 21:17:19,767][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-chi-82-70/followers
+[INFO][2017-03-27 21:17:20,781][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/pan-hong-yu-14-74
+[INFO][2017-03-27 21:17:21,753][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-93-83
+[INFO][2017-03-27 21:17:22,730][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/gong-xiao-ling-88
+[INFO][2017-03-27 21:17:23,779][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-bian-shi-92-65
+[INFO][2017-03-27 21:17:24,759][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/waxss08063
+[INFO][2017-03-27 21:17:25,719][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhao-qian-yue-24
+[INFO][2017-03-27 21:17:26,894][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-yang-87-98-79
+[INFO][2017-03-27 21:17:27,720][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/qia-ge-92
+[INFO][2017-03-27 21:17:28,812][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/huang-hai-lin-96
+[INFO][2017-03-27 21:17:29,763][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wu-ke-88-25
+[INFO][2017-03-27 21:17:30,812][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhao-yiming-67/followers
+[INFO][2017-03-27 21:17:31,868][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/hans-48-17
+[INFO][2017-03-27 21:17:33,831][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yuksen
+[INFO][2017-03-27 21:17:34,807][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/pan-hong-yu-14-74/followers
+[INFO][2017-03-27 21:17:36,192][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-93-83/followers
+[INFO][2017-03-27 21:17:36,845][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/gong-xiao-ling-88/followers
+[INFO][2017-03-27 21:17:36,992][org.apache.http.impl.execchain.RetryExec]I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.zhihu.com:443: The target server failed to respond
+[INFO][2017-03-27 21:17:36,992][org.apache.http.impl.execchain.RetryExec]Retrying request to {s}->https://www.zhihu.com:443
+[INFO][2017-03-27 21:17:37,878][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-bian-shi-92-65/followers
+[INFO][2017-03-27 21:17:38,741][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/waxss08063/followers
+[INFO][2017-03-27 21:17:39,687][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhao-qian-yue-24/followers
+[INFO][2017-03-27 21:17:40,657][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-yang-87-98-79/followers
+[INFO][2017-03-27 21:17:41,720][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/huang-hai-lin-96/followers
+[INFO][2017-03-27 21:17:42,648][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wu-ke-88-25/followers
+[INFO][2017-03-27 21:17:43,650][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/123-63-24-79
+[INFO][2017-03-27 21:17:44,645][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-lian-27-67
+[INFO][2017-03-27 21:17:45,706][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/hans-48-17/followers
+[INFO][2017-03-27 21:17:46,793][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yuksen/followers
+[INFO][2017-03-27 21:17:47,710][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-zun-21
+[INFO][2017-03-27 21:17:48,753][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yang-wei-dong-1
+[INFO][2017-03-27 21:17:49,974][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/qia-ge-92/followers
+[INFO][2017-03-27 21:17:51,324][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/huynchen-san-shi
+[INFO][2017-03-27 21:17:52,046][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yang-qi-26-20
+[INFO][2017-03-27 21:17:52,782][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/Mad-hatter
+[INFO][2017-03-27 21:17:53,851][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ji-ze-wei-te
+[INFO][2017-03-27 21:17:54,652][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/su-wei-zheng
+[INFO][2017-03-27 21:17:55,951][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jin-yi-dong-43
+[INFO][2017-03-27 21:17:56,844][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/cheng-chuan-mikan
+[INFO][2017-03-27 21:17:57,954][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/123-63-24-79/followers
+[INFO][2017-03-27 21:17:58,890][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-lian-27-67/followers
+[INFO][2017-03-27 21:17:59,786][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/lee999111
+[INFO][2017-03-27 21:18:00,849][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/he-zhi-qiang-69-9
+[INFO][2017-03-27 21:18:01,927][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhou-jiang-ling
+[INFO][2017-03-27 21:18:02,846][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/e-e-e-e-e-e-51
+[INFO][2017-03-27 21:18:04,212][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/cheng-chi-chi-76
+[INFO][2017-03-27 21:18:05,153][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jing-dian-80-63
+[INFO][2017-03-27 21:18:05,850][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-zun-21/followers
+[INFO][2017-03-27 21:18:06,970][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yang-wei-dong-1/followers
+[INFO][2017-03-27 21:18:07,838][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/huynchen-san-shi/followers
+[INFO][2017-03-27 21:18:08,805][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yang-qi-26-20/followers
+[INFO][2017-03-27 21:18:09,851][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/Mad-hatter/followers
+[INFO][2017-03-27 21:18:10,649][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ji-ze-wei-te/followers
+[INFO][2017-03-27 21:18:11,823][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/su-wei-zheng/followers
+[INFO][2017-03-27 21:18:13,141][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jin-yi-dong-43/followers
+[INFO][2017-03-27 21:18:13,906][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/cheng-chuan-mikan/followers
+[INFO][2017-03-27 21:18:14,787][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wang-pang-zi-13-56
+[INFO][2017-03-27 21:18:15,919][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-duo-duo-64-56
+[INFO][2017-03-27 21:18:17,204][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ji-bu-de-48
+[INFO][2017-03-27 21:18:17,744][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xu-zi-feng-10
+[INFO][2017-03-27 21:18:18,755][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yao-nie-tui-san
+[INFO][2017-03-27 21:18:19,802][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wang-shi-fang-5
+[INFO][2017-03-27 21:18:20,872][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/lee999111/followers
+[INFO][2017-03-27 21:18:21,827][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/he-zhi-qiang-69-9/followers
+[INFO][2017-03-27 21:18:22,841][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhou-jiang-ling/followers
+[INFO][2017-03-27 21:18:23,841][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/e-e-e-e-e-e-51/followers
+[INFO][2017-03-27 21:18:24,855][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/cheng-chi-chi-76/followers
+[INFO][2017-03-27 21:18:25,773][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jing-dian-80-63/followers
+[INFO][2017-03-27 21:18:27,207][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/rmrzfltve
+[INFO][2017-03-27 21:18:27,785][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/kao-yan-80-87
+[INFO][2017-03-27 21:18:28,736][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-cheng-86-92
+[INFO][2017-03-27 21:18:29,635][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-peng-56-5
+[INFO][2017-03-27 21:18:30,713][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/qin-hao-zhi-59
+[INFO][2017-03-27 21:18:31,735][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/shan-you-fu-su-66-77
+[INFO][2017-03-27 21:18:32,734][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jiu-wei-26-6
+[INFO][2017-03-27 21:18:33,814][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/luo-yi-yi-65
+[INFO][2017-03-27 21:18:34,824][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/Dynames9
+[INFO][2017-03-27 21:18:35,741][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/chen-han-80
+[INFO][2017-03-27 21:18:36,785][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/sun-xiao-19-96
+[INFO][2017-03-27 21:18:37,754][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yula00854
+[INFO][2017-03-27 21:18:38,679][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xie-jia-11-23
+[INFO][2017-03-27 21:18:39,735][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/chen-si-yuan-20-57-22
+[INFO][2017-03-27 21:18:41,858][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/guo-zhu-65-52
+[INFO][2017-03-27 21:18:43,101][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/si-wan-mo-yang
+[INFO][2017-03-27 21:18:44,204][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/YIXUEQISHI
+[INFO][2017-03-27 21:18:44,838][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/da-nei-mian-hua-tang
+[INFO][2017-03-27 21:18:45,752][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/haruakira
+[INFO][2017-03-27 21:18:46,813][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/a-shun-31
+[INFO][2017-03-27 21:18:47,910][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/er-bin
+[INFO][2017-03-27 21:18:48,870][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/su-tang-shui
+[INFO][2017-03-27 21:18:49,838][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yx142857
+[INFO][2017-03-27 21:18:50,862][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/han-jum
+[INFO][2017-03-27 21:18:51,804][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wang-pang-zi-13-56/followers
+[INFO][2017-03-27 21:18:52,777][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-duo-duo-64-56/followers
+[INFO][2017-03-27 21:18:53,855][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ji-bu-de-48/followers
+[INFO][2017-03-27 21:18:54,912][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xu-zi-feng-10/followers
+[INFO][2017-03-27 21:18:55,836][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yao-nie-tui-san/followers
+[INFO][2017-03-27 21:18:56,768][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wang-shi-fang-5/followers
+[INFO][2017-03-27 21:18:58,213][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/huo-guo-li-de-kao-bao-zi
+[INFO][2017-03-27 21:18:59,272][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/VOLCANO-ELECTRIC
+[INFO][2017-03-27 21:18:59,648][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/gws5473
+[INFO][2017-03-27 21:19:00,765][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/answer-73-93
+[INFO][2017-03-27 21:19:01,668][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/candytian-bu-tian
+[INFO][2017-03-27 21:19:02,793][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/sha-meng-meng-40
+[INFO][2017-03-27 21:19:03,720][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/duoduo175
+[INFO][2017-03-27 21:19:04,851][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/cai-rui-cong-28
+[INFO][2017-03-27 21:19:05,997][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/guignol
+[INFO][2017-03-27 21:19:06,755][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xy-yue
+[INFO][2017-03-27 21:19:08,130][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xiong-chang-57-17
+[INFO][2017-03-27 21:19:09,253][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ee-liu-2
+[INFO][2017-03-27 21:19:09,770][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/rmrzfltve/followers
+[INFO][2017-03-27 21:19:11,140][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/kao-yan-80-87/followers
+[INFO][2017-03-27 21:19:11,850][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/zhang-cheng-86-92/followers
+[INFO][2017-03-27 21:19:12,720][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/liu-peng-56-5/followers
+[INFO][2017-03-27 21:19:13,805][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/qin-hao-zhi-59/followers
+[INFO][2017-03-27 21:19:14,683][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/shan-you-fu-su-66-77/followers
+[INFO][2017-03-27 21:19:15,663][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jiu-wei-26-6/followers
+[INFO][2017-03-27 21:19:16,667][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/luo-yi-yi-65/followers
+[INFO][2017-03-27 21:19:17,650][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/Dynames9/followers
+[INFO][2017-03-27 21:19:18,664][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/sun-xiao-19-96/followers
+[INFO][2017-03-27 21:19:19,813][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yula00854/followers
+[INFO][2017-03-27 21:19:20,649][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xie-jia-11-23/followers
+[INFO][2017-03-27 21:19:21,959][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/chen-si-yuan-20-57-22/followers
+[INFO][2017-03-27 21:19:22,638][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/chen-han-80/followers
+[INFO][2017-03-27 21:19:23,654][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/guo-zhu-65-52/followers
+[INFO][2017-03-27 21:19:24,689][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/si-wan-mo-yang/followers
+[INFO][2017-03-27 21:19:25,662][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/YIXUEQISHI/followers
+[INFO][2017-03-27 21:19:26,804][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/da-nei-mian-hua-tang/followers
+[INFO][2017-03-27 21:19:27,736][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/haruakira/followers
+[INFO][2017-03-27 21:19:28,813][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/a-shun-31/followers
+[INFO][2017-03-27 21:19:29,785][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/er-bin/followers
+[INFO][2017-03-27 21:19:30,794][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/su-tang-shui/followers
+[INFO][2017-03-27 21:19:31,663][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yx142857/followers
+[INFO][2017-03-27 21:19:32,673][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/han-jum/followers
+[INFO][2017-03-27 21:19:34,342][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/duo-er-suo-te-miao
+[INFO][2017-03-27 21:19:34,778][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xian-dan-20-59
+[INFO][2017-03-27 21:19:35,764][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/qing-sen-69-78
+[INFO][2017-03-27 21:19:36,686][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/lcpy
+[INFO][2017-03-27 21:19:37,659][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/pan-gui-ying-59
+[INFO][2017-03-27 21:19:38,820][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jian-ge-xiao-hao-lai-xun-shan
+[INFO][2017-03-27 21:19:39,754][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ha-ge-ha-ge-31
+[INFO][2017-03-27 21:19:40,822][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/wang-jin-shan-13
+[INFO][2017-03-27 21:19:41,846][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/joke666
+[INFO][2017-03-27 21:19:42,804][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/han-guang-8-41
+[INFO][2017-03-27 21:19:43,815][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yin-hao-ran-32
+[INFO][2017-03-27 21:19:44,851][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ying-jun-ge-de-chuan-shuo
+[INFO][2017-03-27 21:19:45,840][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/yu-tian-da-69
+[INFO][2017-03-27 21:19:46,853][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ren-hao-14-50
+[INFO][2017-03-27 21:19:47,843][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/jiang-aqua
+[INFO][2017-03-27 21:19:48,772][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/huo-guo-li-de-kao-bao-zi/followers
+[INFO][2017-03-27 21:19:49,881][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/VOLCANO-ELECTRIC/followers
+[INFO][2017-03-27 21:19:50,771][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/gws5473/followers
+[INFO][2017-03-27 21:19:51,828][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/answer-73-93/followers
+[INFO][2017-03-27 21:19:53,424][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/candytian-bu-tian/followers
+[INFO][2017-03-27 21:19:53,701][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/sha-meng-meng-40/followers
+[INFO][2017-03-27 21:19:54,750][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/duoduo175/followers
+[INFO][2017-03-27 21:19:55,773][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/cai-rui-cong-28/followers
+[INFO][2017-03-27 21:19:57,292][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/guignol/followers
+[INFO][2017-03-27 21:19:57,683][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xy-yue/followers
+[INFO][2017-03-27 21:19:58,681][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/xiong-chang-57-17/followers
+[INFO][2017-03-27 21:19:59,665][us.codecraft.webmagic.downloader.HttpClientDownloader]downloading page http://www.zhihu.com/people/ee-liu-2/followers

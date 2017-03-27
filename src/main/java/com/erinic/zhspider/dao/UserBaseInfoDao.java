@@ -16,4 +16,6 @@ public interface UserBaseInfoDao extends Mapper<UserBaseInfo> {
     List<UserBaseInfo> getList(@Param("offset") Integer offset, @Param("limit") Integer limit);
 
     UserBaseInfo queryById(Integer userBaseInfoId);
+
+    List<UserBaseInfo> getLocationStatic(Integer selectLimitAmount);
 }
