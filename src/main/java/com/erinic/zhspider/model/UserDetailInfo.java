@@ -13,7 +13,7 @@ import java.util.Date;
  */
 @HelpUrl("http://www.zhihu.com/people/[\\w-]+/followers")
 @TargetUrl(value="http://www.zhihu.com/people/[\\w-]+")
-@Table(name = "user_base_info")
+@Table(name = "user_detail_info")
 public class UserDetailInfo {
 
     @Id

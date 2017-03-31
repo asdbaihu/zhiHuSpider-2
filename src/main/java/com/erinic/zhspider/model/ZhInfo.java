@@ -1,5 +1,6 @@
 package com.erinic.zhspider.model;
 
+import com.erinic.zhspider.utils.SelectPicture;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.model.AfterExtractor;
 import us.codecraft.webmagic.model.annotation.ExtractBy;
@@ -51,15 +52,12 @@ public class ZhInfo implements AfterExtractor{
     }
 
     public String getContent() {
-        if (content != null){
-            content.replace("noscript","");
-        }
         return content;
     }
 
     public void setContent(String content) {
 
-        this.content = content;
+        this.content = SelectPicture.parse(content);
     }
 
     public String getAuthor() {
@@ -89,6 +87,7 @@ public class ZhInfo implements AfterExtractor{
 
     @Override
     public void afterProcess(Page page) {
+//        this.content = SelectPicture.parse(content);
     }
 
     public Integer getId() {

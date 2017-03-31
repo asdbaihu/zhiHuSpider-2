@@ -31,7 +31,7 @@ public class UserInfoController {
     @Autowired
     private UserDetailInfoDao userDetailInfoDao;
 
-    @RequestMapping("zhihu")
+    @RequestMapping("/zhihu")
     public String showPage(ModelMap model) {
         System.out.println("----------");
         model.put("test", "test");

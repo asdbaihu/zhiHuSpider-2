@@ -25,7 +25,7 @@ public class ZhInfoController {
     public String getList(ModelMap model){
         List<ZhInfo> list = zhInfoService.getInfoList(1,3);
         model.put("list",list);
-        return "zhihu";
+        return "list";
     }
 
     @RequestMapping(value = "/{zhInfoId}/detail", method = RequestMethod.GET)
